@@ -1,3 +1,4 @@
+
 version: '3.8'
 
 services:
@@ -11,20 +12,10 @@ services:
       - .:/usr/src/app/
     ports:
       - "8000:8000"
+    env_file:
+      - path: ./.env
+        required: true
     environment:
-      - DJANGO_ENV=dev
-
-  database:
-    image: postgres:16
-    container_name: postgres_db
-    restart: always
-    volumes:
-      - "C:/Program Files/PostgreSQL/16/data:/var/lib/postgresql/data"
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD:
-      POSTGRES_DB: local_db
-      POSTGRES_PORT: 5433
-      POSTGRES_HOST: localhost
-volumes:
-  postgres_data:
+      SECRET_KEY: ${DJANGO_SECRET_KEY}
+      ALLOWED_HOST: ${DJANGO_ALLOWED_HOST}
+      DATABASE_HOST: host.docker.internal
