@@ -1,4 +1,6 @@
-from ..model.models import Product
+from django.http import JsonResponse
+
+from ..model.product_model import Product
 def get_all_products():
     try:
         product_list =  Product.objects.all()
@@ -7,7 +9,9 @@ def get_all_products():
         return None
 
 def create_product(data):
-    return Product.objects.create(**data.dict())
+    create = Product.objects.create(**data.dict())
+    if create:
+        return JsonResponse({"mgs":"Created"},status=201)
 
 async def get_product_by_id(product_id):
     try:

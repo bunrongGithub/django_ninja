@@ -5,32 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings/development.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings/production.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/countries_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/departments_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/employees_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/jobs_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/locations_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/model/regions_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/routes/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/schema/employee_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/services/employee_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoninja/views/employee_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/model/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/model/product_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/routes/routers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/schema/product_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/schema/product_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/services/product_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/services/product_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/views/product_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/views/product_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Codes/wdg-report-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/saroeun.ron/PycharmProjects/DjangoProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DjangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoProject" />
@@ -122,6 +118,9 @@
       <workItem from="1742260205077" duration="5989000" />
       <workItem from="1742266826425" duration="303000" />
       <workItem from="1742268663920" duration="2879000" />
+      <workItem from="1742281424360" duration="10464000" />
+      <workItem from="1742292173721" duration="267000" />
+      <workItem from="1742346801754" duration="2669000" />
     </task>
     <servers />
   </component>

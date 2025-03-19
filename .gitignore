@@ -2,3 +2,11 @@
 templates
 db.sqlite3
 .env
+schema\__pycache__
+routes\__pycache__
+model\__pycache__
+migrations\__pycache__
+__pycache__
+services/__pycache__
+views/__pycache__
+DjangoProject/__pycache__

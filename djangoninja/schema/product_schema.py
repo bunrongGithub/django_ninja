@@ -14,4 +14,5 @@ class ProductCreateSchema(Schema):
     name: str 
     description: str 
     price: Decimal
-    stock: int 
+    stock: int
+
