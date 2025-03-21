@@ -8,6 +8,7 @@ class DepartmentSchema(Schema):
     name: str
     location: LocationSchema
 
+
 class DepartmentCreateSchema(Schema):
     name: str
     location_id: int

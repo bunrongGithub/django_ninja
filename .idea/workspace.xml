@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="" />
+    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoninja/model/countries_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/model/countries_model.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,7 +107,7 @@
       <workItem from="1742353023846" duration="16000" />
       <workItem from="1742458466501" duration="313000" />
       <workItem from="1742458991235" duration="5410000" />
-      <workItem from="1742519751292" duration="10053000" />
+      <workItem from="1742519751292" duration="12518000" />
     </task>
     <servers />
   </component>
