@@ -7,15 +7,15 @@ employee_routes = Router()
 
 # List all employees
 
-@employee_routes.get("/", response=list[EmployeeSchema])
+@employee_routes.get("/employee", response=list[EmployeeSchema])
 def get_employees(request: HttpRequest):
     return list_employees()
 
 # Retrieve a specific employee by ID
-@employee_routes.get("/{employee_id}", response=EmployeeSchema)
+@employee_routes.get("/employee/{employee_id}", response=EmployeeSchema)
 def get_employee(request: HttpRequest, employee_id: int):
     return retrieve_employee(employee_id)
 
-@employee_routes.post("", response=EmployeeSchema)
+@employee_routes.post("/employee", response=EmployeeSchema)
 def create(request: HttpRequest,payload: EmployeeCreateSchema):
     return create_employee(payload)

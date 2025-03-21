@@ -1,6 +1,8 @@
-from ninja import Schema
+from ninja import ModelSchema,Schema
+from ..model.regions_model import Regions
 class RegionsSchema(Schema):
-    name: str
+   id: int
+   name: str
 
-    def name(args):
-        pass
+class RegionsCreateSchema(Schema):
+   name: str

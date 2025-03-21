@@ -14,3 +14,4 @@ def retrieve_employee(employee_id):
         return Employee.objects.get(id=employee_id)
     except Exception as exc:
         raise exc
+    
