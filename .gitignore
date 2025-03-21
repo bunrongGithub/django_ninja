@@ -11,3 +11,4 @@ services/__pycache__
 views/__pycache__
 DjangoProject/__pycache__
 .github
+.github/*
