@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/djangoninja/schema/country_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/schema/department_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/schema/job_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/schema/location_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/services/contry_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/services/job_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/services/location_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/views/country_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/views/department_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/views/job_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/views/location_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoninja/views/region_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/migrations/0002_countries_departments_jobs_regions_employee_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/model/employees_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/model/employees_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/routes/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/routes/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/schema/employee_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/schema/employee_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/schema/regions_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/schema/regions_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/services/employee_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/services/employee_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/views/employee_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/views/employee_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoninja/views/product_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoninja/views/product_view.py" afterDir="false" />
-    </list>
+    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +102,7 @@
       <workItem from="1742353023846" duration="16000" />
       <workItem from="1742458466501" duration="313000" />
       <workItem from="1742458991235" duration="5410000" />
-      <workItem from="1742519751292" duration="7792000" />
+      <workItem from="1742519751292" duration="8311000" />
     </task>
     <servers />
   </component>
