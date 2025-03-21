@@ -3,10 +3,10 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('POSTGRESQL_DATABASE'),
-        'USER': env('POSTGRESQL_USER'),
-        'PASSWORD': env('POSTGRESQL_PASSWORD'),
-        'HOST': env('POSTGRESQL_HOST'),
-        'PORT': env('POSTGRESQL_PORT'),
+        'NAME': env('DEV_POSTGRESQL_DATABASE'),
+        'USER': env('DEV_POSTGRESQL_USER'),
+        'PASSWORD': env('DEV_POSTGRESQL_PASSWORD'),
+        'HOST': env('DEV_POSTGRESQL_HOST'),
+        'PORT': env('DEV_POSTGRESQL_PORT'),
     }
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="" />
+    <list default="true" id="3ea538be-4b2f-4d0b-91bb-cf339540a47d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +105,7 @@
       <workItem from="1742353023846" duration="16000" />
       <workItem from="1742458466501" duration="313000" />
       <workItem from="1742458991235" duration="5410000" />
-      <workItem from="1742519751292" duration="8311000" />
+      <workItem from="1742519751292" duration="9216000" />
     </task>
     <servers />
   </component>

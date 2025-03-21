@@ -1,13 +1,12 @@
-from base import *
+from .base import *
 DEBUG = False
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'xxxx',
-        'USER': 'xxxx',
-        'PASSWORD': '<PASSWORD>',
-        'HOST': 'xxxx',
-        'PORT': '5432',
+        'NAME': env('POSTGRESQL_DATABASE'),
+        'USER': env('POSTGRESQL_USER'),
+        'PASSWORD': env('POSTGRESQL_PASSWORD'),
+        'HOST': env('POSTGRESQL_HOST'),
+        'PORT': env('POSTGRESQL_PORT'),
     }
 }
