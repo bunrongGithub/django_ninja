@@ -4,9 +4,9 @@ from ninja import Router
 from djangoninja.schema.country_schema import CountrySchema, CountriesCreateSchema
 from djangoninja.services.contry_service import create_countries
 
-country_router = Router()
+router = Router()
 
-
-@country_router.post("/create-countries", response=CountrySchema)
+_TGS = ["Country API"]
+@router.post("",tags=_TGS, response=CountrySchema)
 def create(request: HttpRequest, payload: CountriesCreateSchema):
     return create_countries(request, payload)

@@ -8,20 +8,20 @@ from djangoninja.services.product_service import (
     get_product_by_id,
 )
 
-product_routes = Router()
+router = Router()
 
-
-@product_routes.get("/products", response=list[ProductSchema])
+router.tags = ['Products API']
+@router.get("/products", response=list[ProductSchema])
 async def list_products(request):
     return await get_all_products()
 
 
-@product_routes.post("/product", response=ProductSchema)
+@router.post("/product", response=ProductSchema)
 async def create_new_product(request, payload: ProductCreateSchema):
     return await create_product(payload)
 
 
-@product_routes.get("/product/{product_id}", response=ProductSchema)
+@router.get("/product/{product_id}", response=ProductSchema)
 async def get_product(request: HttpRequest, product_id: int):
     product = await get_product_by_id(product_id)
     if not product:

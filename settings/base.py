@@ -15,6 +15,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "djangoninja",
+    "auths.apps.AuthConfig",
+    "ninja_jwt"
 ]
 
 MIDDLEWARE = [

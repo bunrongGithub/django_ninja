@@ -7,10 +7,10 @@ from djangoninja.schema.department_schema import (
 )
 from ..model.departments_model import Departments
 
-department_router = Router()
+router = Router()
 
-
-@department_router.post("department", response=DepartmentSchema)
+router.tags = ['Department API']
+@router.post("department", response=DepartmentSchema)
 def create(request: HttpRequest, payload: DepartmentCreateSchema):
     created = Departments.objects.create(**payload.dict())
     return created

@@ -5,9 +5,9 @@ from ..services.location_service import create_location
 
 from ninja import Router
 
-location_router = Router()
+router = Router()
 
-
-@location_router.post("location", response=LocationSchema)
+_TGS = ["Location Api"]
+@router.post("",tags=_TGS, response=LocationSchema)
 def create(request: HttpRequest, payload: LocationCreateSchema):
     return create_location(request, payload)
